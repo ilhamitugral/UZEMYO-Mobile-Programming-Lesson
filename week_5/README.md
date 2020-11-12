@@ -4,6 +4,8 @@ Bu hafta örnek olarak iPhone arama ekranı tasarlanması planlandı. Figma.com 
 
 ![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_5_android.jpg](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_5_android.jpg)
 
+![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_5_figma.jpg](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_5_figma.jpg)
+
 ## Kullanılan Ortam
 * HP Omen CE007nt
   * Intel i5 7300HQ

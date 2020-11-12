@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 class IlhamisApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
+    Size size = MediaQuery.of(context).size;
     Color textColor = Color(0xFFFFFFFF);
     double actionButtonWidth = 80.75;
     String phoneNumber = '+90 555 555 55 55';
@@ -201,8 +201,9 @@ class MyBox extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-              padding: EdgeInsets.only(bottom: 8),
-              child: Image.asset(this.icon, width: 24)),
+            padding: EdgeInsets.only(bottom: 8),
+            child: Image.asset(this.icon, width: 24),
+          ),
           Text(
             this.text,
             style: TextStyle(
@@ -217,7 +218,6 @@ class MyBox extends StatelessWidget {
 }
 
 class MyDecoration {
-  @override
   BoxDecoration get() {
     return BoxDecoration(
       color: const Color(0xFF272727),
