@@ -22,7 +22,7 @@ class IlhamisApp extends StatelessWidget {
     Color textColor = Color(0xFFFFFFFF);
     String phoneNumber = '+90 555 555 55 55';
     String personName = 'İlhami Tuğral';
-    double iconSize = 18;
+    double iconSize = 24;
 
     return Scaffold(
       backgroundColor: Color(0xFF000000),
@@ -211,7 +211,7 @@ class Panel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        height: 65,
+        height: 75,
         margin: EdgeInsets.only(left: 4, right: 4),
         padding: EdgeInsets.only(top: 7, bottom: 7),
         child: RaisedButton(
@@ -221,23 +221,23 @@ class Panel extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
           ),
           child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  padding: EdgeInsets.only(bottom: 8),
-                  child: this.icon != null ? this.icon : this.iconSrc,
-                ),
-                Container(
-                  child: Text(
-                    this.text,
-                    style: TextStyle(
-                      color: Color(0xFFFFFFFF),
-                      fontSize: 10,
-                    ),
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.only(bottom: 8),
+                child: this.icon != null ? this.icon : this.iconSrc,
+              ),
+              Container(
+                child: Text(
+                  this.text,
+                  style: TextStyle(
+                    color: Color(0xFFFFFFFF),
+                    fontSize: 13,
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
+          ),
         ),
       ),
     );
