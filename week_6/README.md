@@ -2,7 +2,7 @@
 
 Bu hafta örnek olarak iPhone arama ekranı tasarlanması planlandı. Figma.com üzerinden tasarım oluşturuldu. Oluşturulan tasarım sonrasında Aynı şekilde telefona aktarılmaya çalışıldı.
 
-![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_web.png](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_web.png)
+![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_chrome.png](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_chrome.png)
 
 ![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_figma.jpg](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_figma.jpg)
 
