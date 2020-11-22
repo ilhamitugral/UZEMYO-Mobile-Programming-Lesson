@@ -1,6 +1,6 @@
-# UZEMYO - Mobil Programlama Dersi - Hafta 5
+# UZEMYO - Mobil Programlama Dersi - Hafta 6
 
-Bu hafta örnek olarak iPhone arama ekranı tasarlanması planlandı. Figma.com üzerinden tasarım oluşturuldu. Oluşturulan tasarım sonrasında Aynı şekilde telefona aktarılmaya çalışıldı.
+Bu hafta örnek iPhone cihazlardaki gibi kişi bilgisi, arama ekranı ve mesaj gönderme ekranı tasarlandı. Figma.com üzerinden tasarım oluşturuldu. Oluşturulan tasarım sonrasında Aynı şekilde telefona aktarılmaya çalışıldı.
 
 ![https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_chrome.png](https://raw.githubusercontent.com/ilhamitugral/UZEMYO-Mobile-Programming-Lesson/main/resources/week_6_chrome.png)
 
