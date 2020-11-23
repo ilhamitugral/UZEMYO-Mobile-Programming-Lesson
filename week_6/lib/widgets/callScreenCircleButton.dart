@@ -18,7 +18,7 @@ class CallScreenCircleButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double buttonSize = 99;
+    double buttonSize = 86;
     return Column(children: <Widget>[
       Container(
         decoration: BoxDecoration(

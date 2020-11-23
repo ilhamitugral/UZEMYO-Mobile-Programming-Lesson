@@ -106,8 +106,8 @@ class CallScreen extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  top: size.height * .1,
-                  bottom: size.height * .1,
+                  top: size.height * .05,
+                  bottom: size.height * .05,
                 ),
               ),
             ],
