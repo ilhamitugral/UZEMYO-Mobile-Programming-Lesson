@@ -50,16 +50,19 @@ class CallScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CallScreenCircleButton(
+                      heroTag: 'microphoneButton',
                       imageSrc: Image.asset('${imagesSrc}Microphone.png'),
                       onClick: () {},
                       text: 'sesi kapat',
                     ),
                     CallScreenCircleButton(
+                      heroTag: 'keypadButton',
                       imageSrc: Image.asset('${imagesSrc}KeypadIcon.png'),
                       onClick: () {},
                       text: 'klavye',
                     ),
                     CallScreenCircleButton(
+                      heroTag: 'speakerButton',
                       imageSrc: Image.asset('${imagesSrc}SpeakerIcon.png'),
                       onClick: () {},
                       text: 'hoparlör',
@@ -73,15 +76,18 @@ class CallScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     CallScreenCircleButton(
+                      heroTag: 'addCallButton',
                       imageSrc: Image.asset('${imagesSrc}AddCallIcon.png'),
                       onClick: () {},
                       text: 'arama ekle',
                     ),
                     CallScreenCircleButton(
+                        heroTag: 'facetimeButton',
                         imageSrc: Image.asset('${imagesSrc}FacetimeIcon.png'),
                         onClick: () {},
                         text: 'FaceTime'),
                     CallScreenCircleButton(
+                        heroTag: 'contactsIcon',
                         imageSrc: Image.asset('${imagesSrc}ContactsIcon.png'),
                         onClick: () {},
                         text: 'kişiler'),
@@ -92,6 +98,7 @@ class CallScreen extends StatelessWidget {
                 child: Transform.rotate(
                   angle: 135 * 3.1415 / 180,
                   child: CallScreenCircleButton(
+                    heroTag: 'exitCallButton',
                     bgColor: Color(0xFFEB4E3D),
                     icon: Icon(
                       Icons.call,

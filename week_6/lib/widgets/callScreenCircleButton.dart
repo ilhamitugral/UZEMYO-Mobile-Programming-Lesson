@@ -8,6 +8,7 @@ class CallScreenCircleButton extends StatelessWidget {
     this.onClick,
     this.bgColor = const Color(0xFF303030),
     this.text,
+    this.heroTag,
   }) : super(key: key);
 
   final Image imageSrc;
@@ -15,20 +16,18 @@ class CallScreenCircleButton extends StatelessWidget {
   final Function onClick;
   final Color bgColor;
   final String text;
+  final String heroTag;
 
   @override
   Widget build(BuildContext context) {
-    double buttonSize = 86;
+    double buttonSize = 92;
     return Column(children: <Widget>[
       Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(buttonSize),
-          color: this.bgColor,
-        ),
         width: buttonSize,
         height: buttonSize,
-        child: RaisedButton(
-          color: Colors.transparent,
+        child: FloatingActionButton(
+          heroTag: this.heroTag,
+          backgroundColor: this.bgColor,
           onPressed: this.onClick,
           child: this.icon != null ? this.icon : this.imageSrc,
         ),

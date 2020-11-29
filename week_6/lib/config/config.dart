@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final Color appBgColor = Color(0xFF000000);
+final Color appBgColor = Color(0xFF1C1C1C);
 final Color textColor = Color(0xFFFFFFFF);
 final String phoneNumber = '+90 555 555 55 55';
 final String personName = 'İlhami Tuğral';
